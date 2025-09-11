@@ -5,7 +5,7 @@ class MeshagentAT0518 < Formula
 
   on_macos do
     url "https://storage.googleapis.com/meshagent-cli-builds/0.5.18/meshagent-0.5.18-macos.tar.gz"
-    sha256 "1407748bb116a18c54ebf625b57f44cf799eb5094094e9cf0fe9f22c52cf5184"
+    sha256 "8012003da5474b6c0d36ea443dbfdf3d83fa5a3f7fff03d2d6776b3792819a7f"
   end  
 
   def install
