@@ -4,11 +4,11 @@ class MeshagentAT060 < Formula
   license "Apache-2.0"
 
   url "https://storage.googleapis.com/meshagent-cli-builds/0.6.0/meshagent-0.6.0-macos.tar.gz"
-  sha256 "8a9cbf436a104ed1820ab2b2abba23299797f24033d081167f7c7b6c15715682"
+  sha256 "a53c4941a32687f944ff3d3ff384973f003f2b14f5f50ee94b77dfe7a737c9ac"
 
   bottle do
     root_url "https://storage.googleapis.com/meshagent-cli-builds/0.6.0/bottles"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "46fa0607c6561a7fa371ed5edb13e1dfdc1fe78f2aa02bac49a8153237ad9eeb"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "be547b1336a4dcd275907bdb6d6fb50f01fd423211aed8a1fa1f7a4a831b271b"
   end
 
   def install
