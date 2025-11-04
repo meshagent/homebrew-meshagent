@@ -1,4 +1,4 @@
-class Meshagent < Formula
+class MeshagentAT061 < Formula
   desc "meshagent cli"
   homepage ""
   license "Apache-2.0"
