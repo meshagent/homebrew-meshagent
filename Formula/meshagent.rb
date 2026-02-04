@@ -4,7 +4,7 @@ class Meshagent < Formula
   license "Apache-2.0"
   version "0.25.5"  # keep in sync with your artifact
   url "https://storage.googleapis.com/meshagent-cli-builds/0.25.5/meshagent-0.25.5-macos.tar.gz"
-  sha256 "4ddeb4614b668b5f9cc04bcda340ed9b80fb57bf98667b1819e2617844a1bf2d"
+  sha256 "0d4de8edfadae8225fb8ddebedc29323c6ca4a5afa0932eac2644f3d6cf37659"
   depends_on macos: :sonoma
   depends_on "openssl@3"
   preserve_rpath
