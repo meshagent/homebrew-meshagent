@@ -7,16 +7,16 @@ class Meshagent < Formula
 
   on_macos do
     url "https://storage.googleapis.com/meshagent-cli-builds/0.50.0/meshagent-0.50.0-macos.tar.gz"
-    sha256 "12a8a0578b64fbf882525032d59e1899c4c020c9fc44157cc7f4debf87b826c3"
+    sha256 "78d0b01d7561d14e9732e296580aa8f77c77f778064b76ffd4d93fdc7be327f2"
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://storage.googleapis.com/meshagent-cli-builds/0.50.0/meshagent-0.50.0-linux-arm64.tar.gz"
-      sha256 "a23844de2533ee6b384d36a980a892e17d768917e15cf38276a261dad3ff38b6"
+      sha256 "c7a322c3fac481812eff33c8a1d7570dfefd6db6c8ddf25569d3e6390488b770"
     else
       url "https://storage.googleapis.com/meshagent-cli-builds/0.50.0/meshagent-0.50.0-linux-x86_64.tar.gz"
-      sha256 "89f74cddbf83cf577332fa098e9e9e165a2cfbd229f221dfaac74080c981d0d3"
+      sha256 "5252ebc8274133c490ef4df29ed2c4e85cb1e8493c6ed87d225b9c3110a55c95"
     end
   end
 
