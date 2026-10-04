@@ -1,8 +1,10 @@
-class EnterpriseCodex < Formula
+class EnterpriseCodexAT0531 < Formula
   desc "MeshAgent enterprise distribution of OpenAI Codex"
   homepage "https://www.meshagent.com"
   version "0.53.1-meshagent.0.153.4"
   license "Apache-2.0"
+
+  keg_only :versioned_formula
 
   on_macos do
     on_arm do
