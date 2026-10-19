@@ -2,21 +2,21 @@ class Meshagent < Formula
   desc "meshagent CLI"
   homepage "https://www.meshagent.com"
   license "Apache-2.0"
-  version "0.54.1"  # keep in sync with your artifact
+  version "0.54.2"  # keep in sync with your artifact
   preserve_rpath
 
   on_macos do
-    url "https://storage.googleapis.com/meshagent-cli-builds/0.54.1/meshagent-0.54.1-macos.tar.gz"
-    sha256 "4b3c04112bd6895922b1988baa285c7c7719ef62142d0aa8740a210528594e58"
+    url "https://storage.googleapis.com/meshagent-cli-builds/0.54.2/meshagent-0.54.2-macos.tar.gz"
+    sha256 "34dfd1010539f3cdfe56d0e33235f1cbd79ad4c0eddb816c5f7a07dc726e0c3a"
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://storage.googleapis.com/meshagent-cli-builds/0.54.1/meshagent-0.54.1-linux-arm64.tar.gz"
-      sha256 "b629f4c79a77224afa65569d8f4a6b40f90505ff0fa9b55e1d85011c7dca9e04"
+      url "https://storage.googleapis.com/meshagent-cli-builds/0.54.2/meshagent-0.54.2-linux-arm64.tar.gz"
+      sha256 "7b1a43fac57bf79ed00dfeb16e530de9a03cb336ee83857593a520fccd1ea6e4"
     else
-      url "https://storage.googleapis.com/meshagent-cli-builds/0.54.1/meshagent-0.54.1-linux-x86_64.tar.gz"
-      sha256 "c1ddac3a4c0311798b147907e35dfb701d761b59d35ae0e954179bb4b8d7a9b2"
+      url "https://storage.googleapis.com/meshagent-cli-builds/0.54.2/meshagent-0.54.2-linux-x86_64.tar.gz"
+      sha256 "6d92a7b70ed42e97e08b107b3a040846ea28365459f16ef7565197476f1ec7ac"
     end
   end
 
