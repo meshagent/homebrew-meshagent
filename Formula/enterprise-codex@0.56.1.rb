@@ -9,22 +9,22 @@ class EnterpriseCodexAT0561 < Formula
   on_macos do
     on_arm do
       url "https://storage.googleapis.com/meshagent-enterprise-codex-builds/0.56.1/enterprise-codex-0.56.1-meshagent.0.160.0-macos-arm64.tar.gz"
-      sha256 "edbd3f9c7110d4b0574d1ef5a55670993309f6cc331b500ef0542a341f19faff"
+      sha256 "c4c53f55ec3d8342eba40f1bd2d3d890618f1056e26c25da9cb548d1a5f9fd50"
     end
     on_intel do
       url "https://storage.googleapis.com/meshagent-enterprise-codex-builds/0.56.1/enterprise-codex-0.56.1-meshagent.0.160.0-macos-x86_64.tar.gz"
-      sha256 "ddac9fefa67267c166afc727f09ccb9bd0798a2ab055be4c9ed1f18a1750b2e3"
+      sha256 "367daf3bd5c23284d53ac908d220ba980108e280df1aa8eeafaf7638c653d3ac"
     end
   end
 
   on_linux do
     on_arm do
       url "https://storage.googleapis.com/meshagent-enterprise-codex-builds/0.56.1/enterprise-codex-0.56.1-meshagent.0.160.0-linux-arm64.tar.gz"
-      sha256 "77a12eec5dff12ad9d9202c8cf2fb7e125a7e665247249af50f2e7fdb18b2603"
+      sha256 "5a1a5a0440d30991463b147d322cb611f33a03e61a985cfa35e8b1b40e118aba"
     end
     on_intel do
       url "https://storage.googleapis.com/meshagent-enterprise-codex-builds/0.56.1/enterprise-codex-0.56.1-meshagent.0.160.0-linux-x86_64.tar.gz"
-      sha256 "cd8fe8799abeb8d00af0b4e750334f395ac1e5820d48503095c8777e528ef147"
+      sha256 "d5cbce82d24963d361c59ef4cde1c75e640b398fc4e30175d2bf4802d6ea197c"
     end
   end
 
