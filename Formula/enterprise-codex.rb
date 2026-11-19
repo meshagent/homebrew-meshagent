@@ -1,28 +1,28 @@
 class EnterpriseCodex < Formula
   desc "MeshAgent enterprise distribution of OpenAI Codex"
   homepage "https://www.meshagent.com"
-  version "0.57.0-meshagent.0.160.0"
+  version "0.57.1-meshagent.0.160.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://storage.googleapis.com/meshagent-enterprise-codex-builds/0.57.0/enterprise-codex-0.57.0-meshagent.0.160.0-macos-arm64.tar.gz"
-      sha256 "5e8dadd10a54bb5b3449b265f925a29904bd94dfefaf86173b82b08f0ca87aed"
+      url "https://storage.googleapis.com/meshagent-enterprise-codex-builds/0.57.1/enterprise-codex-0.57.1-meshagent.0.160.0-macos-arm64.tar.gz"
+      sha256 "290dee002e7318bcbb3b914650cf08da1309f9ee5a30cd485ac2ca3733716bf5"
     end
     on_intel do
-      url "https://storage.googleapis.com/meshagent-enterprise-codex-builds/0.57.0/enterprise-codex-0.57.0-meshagent.0.160.0-macos-x86_64.tar.gz"
-      sha256 "20b86968623fb99f05b0fbbac032315edd4932ff7d9305952804c8a176a17588"
+      url "https://storage.googleapis.com/meshagent-enterprise-codex-builds/0.57.1/enterprise-codex-0.57.1-meshagent.0.160.0-macos-x86_64.tar.gz"
+      sha256 "f80a5a96b5706821e967d30e04636d0952715d8a172f15f95ea036607f80edd4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://storage.googleapis.com/meshagent-enterprise-codex-builds/0.57.0/enterprise-codex-0.57.0-meshagent.0.160.0-linux-arm64.tar.gz"
-      sha256 "bd610a326354b5c5b698b5439a75a2cedb328f1ef7315dfaa3a0c90e9d0bbca5"
+      url "https://storage.googleapis.com/meshagent-enterprise-codex-builds/0.57.1/enterprise-codex-0.57.1-meshagent.0.160.0-linux-arm64.tar.gz"
+      sha256 "fcec070c904a2f33f8a62b0c5c5f77c0f902c006743e0f6a2544d79fd9723df2"
     end
     on_intel do
-      url "https://storage.googleapis.com/meshagent-enterprise-codex-builds/0.57.0/enterprise-codex-0.57.0-meshagent.0.160.0-linux-x86_64.tar.gz"
-      sha256 "70b1340a79db252483722789dcef22db33687ce8e435b95189255cb37e8697d6"
+      url "https://storage.googleapis.com/meshagent-enterprise-codex-builds/0.57.1/enterprise-codex-0.57.1-meshagent.0.160.0-linux-x86_64.tar.gz"
+      sha256 "696df2d486b19212eb547fb58d4885ae4081ed77dc7150bf26f5c2c253f4c640"
     end
   end
 
